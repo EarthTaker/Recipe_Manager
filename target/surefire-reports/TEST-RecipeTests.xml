@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="RecipeTests" time="0.092" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="W:\NetBeans Projects\recipeManager\recipeManager\target\test-classes;W:\NetBeans Projects\recipeManager\recipeManager\target\classes;C:\Users\Talka\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\Talka\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Talka\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Talka\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="W:\Java\bin"/>
+    <property name="sun.java.command" value="C:\Users\Talka\AppData\Local\Temp\surefire1501627049133085727\surefirebooter-20240126233717463_3.jar C:\Users\Talka\AppData\Local\Temp\surefire1501627049133085727 2024-01-26T23-37-17_370-jvmRun1 surefire-20240126233717463_1tmp surefire_0-20240126233717463_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="RecipeTests"/>
+    <property name="surefire.test.class.path" value="W:\NetBeans Projects\recipeManager\recipeManager\target\test-classes;W:\NetBeans Projects\recipeManager\recipeManager\target\classes;C:\Users\Talka\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\Talka\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Talka\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Talka\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Talka"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="W:\Java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="W:\NetBeans Projects\recipeManager\recipeManager"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Talka\AppData\Local\Temp\surefire1501627049133085727\surefirebooter-20240126233717463_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="Talka"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="W:\NetBeans-20\netbeans\java\maven-nblib\netbeans-eventspy.jar;W:\NetBeans-20\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Talka\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Talka\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="W:\NetBeans Projects\recipeManager\recipeManager"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="W:\Java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;W:\Java\bin;C:\Users\Talka\AppData\Local\Microsoft\WindowsApps;;W:\PyCharm 2023.1.2\bin;;C:\Users\Talka\.dotnet\tools;W:\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="addIngredientToRecipeBoxRecipe" classname="RecipeTests" time="0.036">
+    <system-out><![CDATA[---------------------------------------------------------------------
+
+Add Ingredient: Potatoes to Recipe: Fruit Salad?
+
+Enter: 1 for Yes, 2 for No.
+
+---------------------------------------------------------------------
+Input: ]]></system-out>
+  </testcase>
+  <testcase name="createRecipeWithInstructions" classname="RecipeTests" time="0.01">
+    <system-out><![CDATA[-----------------------------------------------------
+
+To create a Recipe, you must first provide its name: 
+
+-----------------------------------------------------
+Input: ---------------------------------------------------------
+
+What is Test Recipe's serving size?
+
+---------------------------------------------------------
+Input: ------------------------------------------------------------
+
+How many calories will Test Recipe be?
+
+------------------------------------------------------------
+Input: --------------------------------------------
+
+Would you like to add Recipe Instructions now?
+
+1 - Yes, 2 - No
+--------------------------------------------
+Input: ==================================================
+
+Recipe Test Recipe Instructions
+
+==================================================
+Enter Step 1:
+
+
+==================================================
+Option 1: Exit
+==================================================
+Input: --------------------------------------------
+Would you like to add another step?
+
+1 - Yes, 2 - No
+--------------------------------------------
+Input: ==================================================
+
+Recipe Test Recipe Instructions
+
+==================================================
+Enter Step 2:
+
+Existing Steps: 
+--------------------------------------------
+1. Insert into Oven.
+--------------------------------------------
+
+==================================================
+Option 1: Exit
+==================================================
+Input: --------------------------------------------
+Would you like to add another step?
+
+1 - Yes, 2 - No
+--------------------------------------------
+Input: ==================================================
+
+Recipe Test Recipe Instructions
+
+==================================================
+Enter Step 3:
+
+Existing Steps: 
+--------------------------------------------
+1. Insert into Oven.
+2. Bake to 400 Degrees.
+--------------------------------------------
+
+==================================================
+Option 1: Exit
+==================================================
+Input: --------------------------------------------
+Would you like to add another step?
+
+1 - Yes, 2 - No
+--------------------------------------------
+Input: ---------------------------------------------------------------------------------------------
+
+Recipe: Test Recipe created successfully! Returning to Recipe Menu.
+
+---------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="updateSavedRecipe" classname="RecipeTests" time="0.004">
+    <system-out><![CDATA[=================================================================================
+
+For Recipe: Fruit Salad, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 89
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 4554.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: --------------------------------------------
+
+What would you like the recipe's name to be?
+
+--------------------------------------------
+Input: =================================================================================
+
+For Recipe: This is a new Recipe, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 89
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 4554.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: --------------------------------------------
+
+How many servings should the recipe be?
+
+--------------------------------------------
+Input: =================================================================================
+
+For Recipe: This is a new Recipe, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 4000
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 4554.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: ---------------------------------------
+
+How many calories should the recipe be?
+
+---------------------------------------
+Input: =================================================================================
+
+For Recipe: This is a new Recipe, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 4000
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 3000.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: ----------------------------------------------------------------------------
+
+Exiting to Recipe Update Menu.
+
+----------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="updateRecipe" classname="RecipeTests" time="0.003">
+    <system-out><![CDATA[=================================================================================
+
+For Recipe: Strawberry Pie, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 34
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 444.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: --------------------------------------------
+
+What would you like the recipe's name to be?
+
+--------------------------------------------
+Input: =================================================================================
+
+For Recipe: This is a new Recipe, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 34
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 444.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: --------------------------------------------
+
+How many servings should the recipe be?
+
+--------------------------------------------
+Input: =================================================================================
+
+For Recipe: This is a new Recipe, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 4000
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 444.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: ---------------------------------------
+
+How many calories should the recipe be?
+
+---------------------------------------
+Input: =================================================================================
+
+For Recipe: This is a new Recipe, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 4000
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 3000.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: ----------------------------------------------------------------------------
+
+Exiting to Recipe Update Menu.
+
+----------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="deleteRecipe" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[--------------------------------------------------------------------------------------------------
+
+Are you sure you want to delete Recipe: Test Recipe?
+
+Enter: 1 for Yes, 2 for No.
+
+--------------------------------------------------------------------------------------------------
+
+Input: ---------------------------------
+
+Recipe deleted. Returning to Recipe Menu.
+
+---------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="createRecipeWithAnInstruction" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[-----------------------------------------------------
+
+To create a Recipe, you must first provide its name: 
+
+-----------------------------------------------------
+Input: ---------------------------------------------------------
+
+What is Test Recipe's serving size?
+
+---------------------------------------------------------
+Input: ------------------------------------------------------------
+
+How many calories will Test Recipe be?
+
+------------------------------------------------------------
+Input: --------------------------------------------
+
+Would you like to add Recipe Instructions now?
+
+1 - Yes, 2 - No
+--------------------------------------------
+Input: ==================================================
+
+Recipe Test Recipe Instructions
+
+==================================================
+Enter Step 1:
+
+
+==================================================
+Option 1: Exit
+==================================================
+Input: --------------------------------------------
+Would you like to add another step?
+
+1 - Yes, 2 - No
+--------------------------------------------
+Input: ---------------------------------------------------------------------------------------------
+
+Recipe: Test Recipe created successfully! Returning to Recipe Menu.
+
+---------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="removeRecipeFromRecipeBox" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[====================================================================================
+
+From the list below, please select the recipe you wish to remove from Recipe Box: Totally Radical Recipe Box
+
+------------------------------------------------------------------
+Warning! Removing a recipe from the recipe box will delete it entirely.
+------------------------------------------------------------------
+
+Recipe Name: Fruit Salad
+
+
+------------------------------------------------------------------
+Option 1: Exit
+====================================================================================
+Input: ------------------------------------------------------------------
+
+Recipe removed from Recipe Box: Totally Radical Recipe Box successfully. Returning to Recipe Menu.
+
+------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="addRecipeToRecipeBox" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[---------------------------------------------------------------------
+
+Add Recipe: Strawberry Pie to Recipe Box: Totally Radical Recipe Box?
+
+Enter: 1 for Yes, 2 for No.
+
+---------------------------------------------------------------------
+Input: -------------------------------------------------------------
+
+Recipe added to Recipe Box. Returning to Recipe Menu.
+
+-------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="addIngredientToRecipe" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[---------------------------------------------------------------------
+
+Add Ingredient: Potatoes to Recipe: Strawberry Pie?
+
+Enter: 1 for Yes, 2 for No.
+
+---------------------------------------------------------------------
+Input: ]]></system-out>
+  </testcase>
+  <testcase name="updateRecipeWithInstructions" classname="RecipeTests" time="0.002">
+    <system-out><![CDATA[=================================================================================
+
+For Recipe: Strawberry Pie, which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 34
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 444.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: --------------------------------------------
+
+What would you like the recipe's name to be?
+
+--------------------------------------------
+Input: =================================================================================
+
+For Recipe: There's no way this is a recipe., which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 34
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 444.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: --------------------------------------------
+
+How many servings should the recipe be?
+
+--------------------------------------------
+Input: =================================================================================
+
+For Recipe: There's no way this is a recipe., which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 4000
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 444.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: ---------------------------------------
+
+How many calories should the recipe be?
+
+---------------------------------------
+Input: =================================================================================
+
+For Recipe: There's no way this is a recipe., which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 4000
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 3000.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: ==================================================
+
+Recipe There's no way this is a recipe. Instructions
+
+==================================================
+Enter Step 6:
+
+Existing Steps: 
+--------------------------------------------
+1. Discover your no match for the pie.
+2. Go on a journey of self discovery.
+3. Find the inner strength you knew you had all along.
+4. Find out the pie killed your family.
+5. Bake pie at 3000 degrees until dead or moist at least.
+--------------------------------------------
+
+==================================================
+Option 1: Exit
+==================================================
+Input: --------------------------------------------
+Would you like to add another step?
+
+1 - Yes, 2 - No
+--------------------------------------------
+Input: =================================================================================
+
+For Recipe: There's no way this is a recipe., which values would you like to update?
+
+------------------------------------------------------------------
+Option 1: Name
+
+Option 2: Number of Servings - 4000
+
+Option 3: Ingredient List
+
+Option 4: Total Calories - 3000.0
+
+Option 5: Recipe Instructions
+
+------------------------------------------------------------------
+Option 6: Exit
+=================================================================================
+Input: ----------------------------------------------------------------------------
+
+Exiting to Recipe Update Menu.
+
+----------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="removeIngredientFromRecipeBoxRecipe" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[---------------------------------------------------------------------------------------------------
+
+Input the Ingredient's name from the list below to remove it from Recipe: Fruit Salad
+
+---------------------------------------------------------------------------------------------------
+
+ - Kiwis
+
+ - Dough
+
+ - Sugar
+---------------------------------------------------------------------------------------------------
+Input: -------------------------------------------------------------------
+
+Ingredient was removed from Recipe: Fruit Salad.
+
+-------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="AddDuplicateIngredientToRecipe" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[-------------------------------------------------------------
+
+Ingredient: Blueberries already exists in Recipe: Strawberry Pie.
+
+-------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="createRecipeWithoutInstructions" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[-----------------------------------------------------
+
+To create a Recipe, you must first provide its name: 
+
+-----------------------------------------------------
+Input: ---------------------------------------------------------
+
+What is Test Recipe's serving size?
+
+---------------------------------------------------------
+Input: ------------------------------------------------------------
+
+How many calories will Test Recipe be?
+
+------------------------------------------------------------
+Input: --------------------------------------------
+
+Would you like to add Recipe Instructions now?
+
+1 - Yes, 2 - No
+--------------------------------------------
+Input: ---------------------------------------------------------------------------------------------
+
+Recipe: Test Recipe created successfully! Returning to Recipe Menu.
+
+---------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="removeIngredientFromRecipe" classname="RecipeTests" time="0.001">
+    <system-out><![CDATA[---------------------------------------------------------------------------------------------------
+
+Input the Ingredient's name from the list below to remove it from Recipe: Fruit Salad
+
+---------------------------------------------------------------------------------------------------
+
+ - Potatoes
+---------------------------------------------------------------------------------------------------
+Input: -------------------------------------------------------------------
+
+Ingredient was removed from Recipe: Fruit Salad.
+
+-------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>

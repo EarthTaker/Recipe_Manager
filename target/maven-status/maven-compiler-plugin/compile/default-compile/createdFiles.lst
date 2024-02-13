@@ -1,0 +1,8 @@
+com\mycompany\recipemanager\UserInputValidation.class
+com\mycompany\recipemanager\RecipeBox.class
+com\mycompany\recipemanager\AppTesting.class
+com\mycompany\recipemanager\StateValidation.class
+com\mycompany\recipemanager\MenuDisplays.class
+com\mycompany\recipemanager\Recipe.class
+com\mycompany\recipemanager\Ingredient.class
+com\mycompany\recipemanager\RecipeManager.class
